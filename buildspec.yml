@@ -1,6 +1,6 @@
 version: 0.2
 
-phase:
+phases:
   build:
     commands:
       - echo 'Hello Kev'
@@ -9,4 +9,3 @@ artifacts:
   files:
     - 'Dockerfile'
     - '**/*'
-    
